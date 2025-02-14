@@ -45,17 +45,18 @@ function startTyping() {
     const message = document.getElementById("message");
     const text = `Hey Mama,
 
-I just wanted to take a moment to tell you how special you are to me. Over time, our bond has grown deeper, 
-and I truly cherish every moment we spend together. You're not just my love, but also my best friend. ❤️
+Happy Valentine,s Day!❤️🌹 I just wanted to take a moment to tell you how special you are to me. Over time, our bond has grown deeper, 
+and I truly cherish every moment we spend together. You're not just my cousin, but also my best friend.🥰😘
 
 Lately, I’ve been feeling something more than just friendship, and I don’t know if you’ve ever felt the same way. 
+I really value our bond,and I would never want to make things awkward between us.
 But I believe love is beyond definitions and boundaries, and I wanted to be honest about my feelings.
 
-No matter what, you will always be important to me. I just wanted to share my heart with you. 
+No matter what, you and our friendship will always be important to me. I just wanted to share my heart with you. 
 Take your time, and no matter what you feel, I respect and appreciate you always. ❤️
 
 With love,  
-Suman`;
+Suman🤌`;
 
     let index = 0;
     function typeLetter() {
