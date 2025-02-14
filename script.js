@@ -45,7 +45,7 @@ function startTyping() {
     const message = document.getElementById("message");
     const text = `Hey Mama,
 
-Happy Valentine,s Day!❤️🌹 I just wanted to take a moment to tell you how special you are to me. Over time, our bond has grown deeper, 
+Happy Valentine's Day!❤️🌹 I just wanted to take a moment to tell you how special you are to me. Over time, our bond has grown deeper, 
 and I truly cherish every moment we spend together. You're not just my cousin, but also my best friend.🥰😘
 
 Lately, I’ve been feeling something more than just friendship, and I don’t know if you’ve ever felt the same way. 
