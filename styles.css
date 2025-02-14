@@ -1,0 +1,114 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6e6;
+    text-align: center;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.container {
+    background: white;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 10;
+}
+
+h1 {
+    color: #ff4d6d;
+}
+
+.intro {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+button {
+    background: #ff4d6d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #d43f5e;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Message with Typing Effect */
+#messageContainer {
+    position: relative;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+#message {
+    font-size: 16px;
+    color: #444;
+    white-space: pre-line;
+    font-family: monospace;
+    border-right: 2px solid #ff4d6d;
+    display: inline-block;
+    animation: blinkCursor 0.8s infinite;
+}
+
+/* Falling Hearts & Roses (Inside Letter & Outside) */
+#falling-container, #falling-inside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.falling {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    opacity: 0.8;
+    animation: fall 5s linear infinite;
+}
+
+@keyframes fall {
+    0% { transform: translateY(-50px) rotate(0deg); opacity: 1; }
+    100% { transform: translateY(100vh) rotate(360deg); opacity: 0; }
+}
+
+/* Typing Cursor Blink */
+@keyframes blinkCursor {
+    50% { border-right-color: transparent; }
+}
+
+
+
+
+
+.more-link {
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ff4d6d;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.more-link:hover {
+    color: #d43f5e;
+    text-decoration: underline;
+}
